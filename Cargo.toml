@@ -1,0 +1,18 @@
+[package]
+name = "rustplayground"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.soroban-env-common-curr]
+package = "soroban-env-common"
+version = "0.0.15"
+git = "https://github.com/stellar/rs-soroban-env"
+rev = "83ab1b0e2ce7e08d33d686ed4b4ea0564b454160"
+
+[dependencies.soroban-env-common-next]
+package = "soroban-env-common"
+version = "0.0.15"
+git = "https://github.com/stellar/rs-soroban-env"
+rev = "352487c2d92670be3871e54f32bb20a117b98dbe"
